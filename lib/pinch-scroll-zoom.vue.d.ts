@@ -1,4 +1,4 @@
-import { Vue } from "vue-property-decorator";
+import { Vue } from "nuxt-property-decorator";
 import { PinchScrollZoomEmitData, PinchScrollZoomSetData } from "./types";
 export default class PinchScrollZoom extends Vue {
     private contentWidth;

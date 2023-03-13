@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue, Watch } from "vue-property-decorator";
+import { Component, Prop, Vue, Watch } from "nuxt-property-decorator";
 import { throttle, debounce, DebouncedFunc } from "lodash";
 import PinchScrollZoomAxis from "./pinch-scroll-zoom-axis";
 import { PinchScrollZoomEmitData, PinchScrollZoomSetData } from "./types";
